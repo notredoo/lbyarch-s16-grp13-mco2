@@ -25,6 +25,7 @@ int main() {
     }
 
     printf("\nConverted Grey Float Values: \n");
+
     clock_t startTime = clock();
     for (i = 0; i < height; i++) {
         for (j = 0; j < width; j++) {
@@ -33,11 +34,11 @@ int main() {
         }
         printf("\n");
     }
-    clock_t endTime = clock();
+    clock_t endTime = clock();  
 
     totalTime = (double)(endTime - startTime)/CLOCKS_PER_SEC;
     
-    printf("Total Execution Time: %f ms", totalTime);
+    printf("Total Execution Time (in seconds): %f s", totalTime);
 
     for (i = 0; i < height; i++) {
         free(grayIntValues[i]);
