@@ -12,7 +12,7 @@ imgCvtGrayInttoFloat:
     ;write your code here
     CVTSI2SS XMM0, RCX
     
-    MOVSS XMM1, [GRAYFLOATVALUE]
+    MOVSS XMM1, [GRAYFLOATVALUE]    
     DIVSS XMM0, XMM1
     
     ret
