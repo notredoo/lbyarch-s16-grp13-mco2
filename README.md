@@ -26,8 +26,12 @@
     <li>A sample screenshot of the correctness check and program output for a 10x10 image size is provided below.</li>
 </ol>
 <h3>Screenshot: Correctness Check (10x10 Image Size)</h3>
+<div style="display: flex; gap: 10px;">
+
 ![image](https://github.com/user-attachments/assets/98cc7d0e-715a-4dd7-8511-3ed8eff7a2cc) ![image](https://github.com/user-attachments/assets/28a10cf3-54fe-48f5-9d16-78e457559902)
 <h3>Screenshot: Program Output (10x10 Image Size)</h3>
+</div>
+
 ![image](https://github.com/user-attachments/assets/794b1a03-2ed6-49f5-b9ae-a2b11a89eb08)
 
 <h2>Usage</h2>
